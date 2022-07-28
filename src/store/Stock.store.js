@@ -14,6 +14,7 @@ export const getRandom = createAsyncThunk(
     }
 )
 
+// para disparar a action getRandom: dispatch(getRandom())
 
 const stock = createSlice({
     name: 'stock',
